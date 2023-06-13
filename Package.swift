@@ -14,6 +14,10 @@ let package = Package(
             name: "AmaniSPM",
             targets: ["Amani"])
     ],
+    dependencies: [
+        .package(url: "https://github.com/socketio/socket.io-client-swift", .upToNextMinor(from: "15.0.0")),
+        .package(url: "https://github.com/stasel/WebRTC.git", .upToNextMajor(from: "114.0.0"))
+    ],
     targets: [
         .binaryTarget(
             name: "Amani",
