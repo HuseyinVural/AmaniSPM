@@ -22,7 +22,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AmaniVideoSDK",
-            path: "./AmaniVideoSDK.xcframework"
-        )
+            url: "https://github.com/AmaniTechnologiesLtd/Public-IOS-SDK/blob/main/Carthage/AmaniVideoSDK/1.0.0/AmaniVideoSDK.xcframework.zip?raw=true",
+            checksum: "d6f940c40060529d4854a306dd48ec573bce383028ae7aade62cec8522668cc3")
     ]
 )
